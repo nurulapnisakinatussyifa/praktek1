@@ -7,7 +7,7 @@ $conn_str = "host=john.db.elephantsql.com " .
 $conn = pg_connect($conn_str);
 
 if($conn) {
-    echo "<h3>Koneksi Berhasil</h3>";
+    echo "<h3>Koneksi Berhasil Tersambung</h3>";
 } else {
     echo "<h3>Koneksi GAGAL TERSAMBUNG</h3>";
 }
